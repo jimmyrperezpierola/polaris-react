@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import {classNames} from '@shopify/css-utilities';
 import {getRectForNode, Rect} from '@shopify/javascript-utilities/geometry';
 import {closest} from '@shopify/javascript-utilities/dom';
@@ -161,8 +161,8 @@ export default class PositionedOverlay extends React.PureComponent<
     this.observer.disconnect();
 
     this.setState(
-      ({left, top}) => ({
-        left,
+      ({top}) => ({
+        left: 0,
         top,
         height: 0,
         positioning: 'below',
