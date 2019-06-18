@@ -11,6 +11,7 @@ describe('<PositionedOverlay />', () => {
     active: true,
     activator: document.createElement('div'),
     render: mockRender,
+    fixed: true,
   };
 
   describe('render', () => {
