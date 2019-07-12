@@ -63,11 +63,7 @@ export function addPlaygroundStory(playgroundModule) {
 }
 
 function AppProviderDecorator(story) {
-  return (
-    <div style={{padding: '8px'}}>
-      <AppProvider>{story()}</AppProvider>
-    </div>
-  );
+  return <AppProvider>{story()}</AppProvider>;
 }
 
 /**
