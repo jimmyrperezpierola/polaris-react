@@ -138,9 +138,6 @@ export default class PositionedOverlay extends React.PureComponent<
       zIndex: zIndex == null || isNaN(zIndex) ? undefined : zIndex,
     };
 
-    console.log('LEFT', style.left);
-    console.log('RIGHT', style.right);
-
     const className = classNames(
       styles.PositionedOverlay,
       fixed && styles.fixed,
