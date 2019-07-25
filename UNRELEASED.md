@@ -12,6 +12,8 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 
 ### Enhancements
 
+- Add underline to Links and Plain button on hover, so it doesn't rely on color alone for accessibility ([#1885](https://github.com/Shopify/polaris-react/pull/1885))
+
 ### Bug fixes
 
 - Fixed accessibility issue with ChoiceList errors not being correctly connected to the inputs ([#1824](https://github.com/Shopify/polaris-react/pull/1824));
