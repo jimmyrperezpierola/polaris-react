@@ -35,7 +35,7 @@ export default function App() {
     [connected],
   );
 
-  const breadcrumbs = [{content: 'Sample apps'}, {content: 'Webpack'}];
+  const breadcrumbs = [{content: 'Sample apps'}, {content: 'webpack'}];
   const primaryAction = {content: 'New product'};
   const secondaryActions = [{content: 'Import', icon: 'import'}];
 
@@ -91,13 +91,13 @@ export default function App() {
               <FormLayout.Group>
                 <TextField
                   value={first}
-                  label="First Name"
+                  label="First name"
                   placeholder="Tom"
                   onChange={handleFirstChange}
                 />
                 <TextField
                   value={last}
-                  label="Last Name"
+                  label="Last name"
                   placeholder="Ford"
                   onChange={handleLastChange}
                 />
