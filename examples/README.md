@@ -4,7 +4,6 @@ Listed below are various methods an application could consume Polaris. Each exam
 
 - [create-react-app](https://github.com/Shopify/polaris-react/tree/master/examples/create-react-app)
 - [webpack](https://github.com/Shopify/polaris-react/tree/master/examples/webpack)
-- [Browserify](https://github.com/Shopify/polaris-react/tree/master/examples/browserify)
 - [CDN Styles](https://github.com/Shopify/polaris-react/tree/master/examples/cdn-styles)
 
 For more details on Polaris, visit the [Polaris Style Guide](https://polaris.shopify.com/)
