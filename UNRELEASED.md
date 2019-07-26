@@ -14,6 +14,8 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 
 ### Bug fixes
 
+- Fixed accessibility issue with `Autocomplete` where keyboard navigation of options was laggy and skipped options([#1346](https://github.com/Shopify/polaris-react/issues/1346))
+- Fixed bug where `Autocomplete` was bubbling up the `Enter` key event unexpectedly ([#1380](https://github.com/Shopify/polaris-react/issues/1380))
 - Fixed accessibility issue with ChoiceList errors not being correctly connected to the inputs ([#1824](https://github.com/Shopify/polaris-react/pull/1824));
 - Fixed `Tab` `aria-controls` pointing to a non-existent `Panel` `id` ([#1869](https://github.com/Shopify/polaris-react/pull/1869))
 
