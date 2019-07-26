@@ -1399,17 +1399,20 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@shopify/app-bridge@^1.0.3":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@shopify/app-bridge/-/app-bridge-1.0.7.tgz#d4a61d2672c496af357c86c321c6fa70e92b0377"
-  integrity sha512-/g9PXDvQK3YqzWfyXeQwxVOQaqarZukHWn8EUx0rAj8UjVRBeu2+FoZW8t9TrZAfeUUH2I4l1uWxSgLFdNQQiw==
+"@shopify/app-bridge@^1.3.0":
+  version "1.6.7"
+  resolved "https://registry.yarnpkg.com/@shopify/app-bridge/-/app-bridge-1.6.7.tgz#291d64f27b75d725fb13bc9fe0b01f53a1427d38"
+  integrity sha512-ZUozM11v9bfqCP5V7XkOLwDwtcap+4BJYY/IzRgiCvzvYch/9Z6+PWFkAVUd4jn1oaRobfYgJ9HSKkz0ZJUbMw==
 
-"@shopify/images@^1.1.0":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@shopify/images/-/images-1.1.5.tgz#f7ae5d5801b4550085480825ceda66420d9ff700"
-  integrity sha512-DIPOT6ACpmsqYwvh0TQ48PgmZFceuoV8imrxfmCK6HD+zWcE6TWfunKaGEo0DkkdsS+6guGd/aJXe9m+dyBvdQ==
+"@shopify/css-utilities@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@shopify/css-utilities/-/css-utilities-1.0.0.tgz#adbdf551673942c19e165ee4bc5c6d7ec7625f79"
+  integrity sha512-ZdJ65xcen1OUXcYwvYn5IW9wX8LAm5/cafbeu+BujXY4m5hMA9LiXz+T8LznkdRei0u0YxaAXT+Nwp+Ls5QB0Q==
+  dependencies:
+    "@types/classnames" "^2.2.7"
+    classnames "^2.2.6"
 
-"@shopify/javascript-utilities@^2.1.0", "@shopify/javascript-utilities@^2.2.1":
+"@shopify/javascript-utilities@^2.2.1":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@shopify/javascript-utilities/-/javascript-utilities-2.4.0.tgz#2ffd528b0632af0392b860f33b4c5ed5c72cdafa"
   integrity sha512-ZfQo1i87iKsSR7mkJOk3/7aPgfuXPrTTbM0dUJTlzdyf13ftJ2Val/WdMicaCVFu2r60uSsqoq/QpF0fLFVlcQ==
@@ -1419,61 +1422,54 @@
     lodash "^4.17.4"
     lodash-decorators "^4.3.5"
 
-"@shopify/polaris-icons@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@shopify/polaris-icons/-/polaris-icons-2.0.0.tgz#bcba806f930bb9efaff7be1ee95d1bde0c4f3f0f"
-  integrity sha512-J/rn5ftl/KV3ibeXHEgTT/rFcM3Rq+L76ZK+I3gHpU8W/LwsWeb4nmlUIFxkU8GJk+grWi4G8hr8o/ys451Ovw==
+"@shopify/polaris-icons@^3.3.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@shopify/polaris-icons/-/polaris-icons-3.4.0.tgz#9f12bd8b5963028751dd35037adec354d7d0fe4c"
+  integrity sha512-6j68YVDmW6UCBaypfYB3zsHQ/U10x+ukluVkn7XzyBUMYZhktnRMswSm+kViE/qmfkrLsCKS7OLlWvBsp+CpBQ==
 
-"@shopify/polaris-tokens@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@shopify/polaris-tokens/-/polaris-tokens-2.3.0.tgz#d4e6c12dd83d6f8b1501fbf415268d60151770f2"
-  integrity sha512-/jroX2KTRYrQ9Ht7xbJrU+6pEZR2Iq38mXKT6G+9VB13jOv2Yih27MmitEV71E7g03KTIntKCDOWgR/3ECTb1A==
+"@shopify/polaris-tokens@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@shopify/polaris-tokens/-/polaris-tokens-2.6.0.tgz#1654c83025d80ce803f06329aceaabfb96b5e684"
+  integrity sha512-l2AwgZhujgu/C1cchJginWODXWcjhrpqrh+lcI+SM3MSSca6l2zSXa3B5OqCcspk6DIQDeJEn5BvXJgT7AJNPQ==
 
-"@shopify/polaris@^3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@shopify/polaris/-/polaris-3.9.0.tgz#de2c841edbd948aee81961c8622306bd4d296edd"
-  integrity sha512-lbf6WJbAhBesIp/wZXqqVazf1oPEnzq8yrUBDykH/GKml+WsbC4Op+mwUv4VZKfuHKOfeKIfBo3rhH95QSFjEg==
+"@shopify/polaris@^3.20.0":
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/@shopify/polaris/-/polaris-3.20.0.tgz#33465e8052ce84de96eec044ec53a38828528a61"
+  integrity sha512-7WoFCcBAvBtchUJ5uwF7LlvI28XoHultJOm2ZzV5mHlocpW/HauPoS7vrhtMkls6fcqKm59L+6E01U91SdB4Aw==
   dependencies:
     "@babel/runtime" "^7.1.6"
-    "@shopify/app-bridge" "^1.0.3"
-    "@shopify/images" "^1.1.0"
+    "@shopify/app-bridge" "^1.3.0"
+    "@shopify/css-utilities" "^1.0.0"
     "@shopify/javascript-utilities" "^2.2.1"
-    "@shopify/polaris-icons" "^2.0.0"
-    "@shopify/polaris-tokens" "^2.3.0"
-    "@shopify/react-compose" "^0.1.6"
-    "@shopify/react-utilities" "^2.0.3"
-    "@types/prop-types" "^15.5.5"
+    "@shopify/polaris-icons" "^3.3.0"
+    "@shopify/polaris-tokens" "^2.6.0"
+    "@shopify/react-compose" "^1.0.0"
+    "@shopify/useful-types" "^1.2.4"
     "@types/react" "^16.4.7"
     "@types/react-dom" "^16.0.6"
     "@types/react-transition-group" "^2.0.7"
-    core-js "^2.5.1"
     hoist-non-react-statics "^2.5.0"
     lodash "^4.17.4"
-    lodash-decorators "^4.3.5"
     prop-types "^15.6.1"
     react-transition-group "^2.4.0"
     tslib "^1.9.3"
 
-"@shopify/react-compose@^0.1.6":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@shopify/react-compose/-/react-compose-0.1.10.tgz#7121229c82ecb699ffd165b98a17be6126e1d58e"
-  integrity sha512-VjWIg7vq4cSv1Z1H90ofThsdR0uFC8vRnOEgiBdCOb7qaKrtkWGcllBe1vk6qGLxJBZaL+YmnBXVctSp//tIqQ==
+"@shopify/react-compose@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@shopify/react-compose/-/react-compose-1.0.1.tgz#40f6ae0a3fb715af338e900f09095ba1fb424f41"
+  integrity sha512-kO/l1e+CEpbaRfU23v4ntdEayEMw/BLjqsv+yy8Aiy0LNtGotnOWaCUP2kdgjI2YGndsYarluA9Hf6wQ9nkA3w==
   dependencies:
+    "@shopify/useful-types" "^1.3.0"
     hoist-non-react-statics "^3.0.1"
     tslib "^1.9.3"
 
-"@shopify/react-utilities@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@shopify/react-utilities/-/react-utilities-2.0.3.tgz#424421e7202b402ec7934c137b5b7e035fbeb33c"
-  integrity sha512-Mq0xbWPlufbx7ABH7cup2SQYVmhBFO6bAdAWUEkh8mWY56l2Bpb+VUffmwYmxxcBvtej/lgCCBvG60Vrxcb66g==
+"@shopify/useful-types@^1.2.4", "@shopify/useful-types@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@shopify/useful-types/-/useful-types-1.3.0.tgz#79cfb6722d2cc192c05f14e55789bcfe2b40a6de"
+  integrity sha512-BQw5KFuDm7aAH1bPECxnC1bPyaLSmZP0ecs0XwzKtgltBHWGvgu8dpqNXvY+sDfG5tnF+79EjiytRCOsTElyIg==
   dependencies:
-    "@shopify/javascript-utilities" "^2.1.0"
-    "@types/classnames" "^2.2.3"
-    "@types/node" "^10.0.8"
-    "@types/react" "^16.3.14"
-    "@types/react-dom" "^16.0.5"
-    classnames "^2.2.5"
-    core-js "^2.5.6"
+    "@types/react" ">=16.4.0"
+    tslib "^1.9.3"
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.0.0":
   version "4.0.0"
@@ -1613,10 +1609,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/classnames@^2.2.3":
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.7.tgz#fb68cc9be8487e6ea5b13700e759bfbab7e0fefd"
-  integrity sha512-rzOhiQ55WzAiFgXRtitP/ZUT8iVNyllEpylJ5zHzR4vArUvMB39GTk+Zon/uAM0JxEFAWnwsxC2gH8s+tZ3Myg==
+"@types/classnames@^2.2.7":
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.9.tgz#d868b6febb02666330410fe7f58f3c4b8258be7b"
+  integrity sha512-MNl+rT5UmZeilaPxAVs6YaPC2m6aA8rofviZbhbxpPpl61uKodfdQVsBtgJGTqGizEf02oW3tsVe7FYB8kK14A==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
@@ -1648,12 +1644,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.9.5.tgz#011eece9d3f839a806b63973e228f85967b79ed3"
   integrity sha512-vVjM0SVzgaOUpflq4GYBvCpozes8OgIIS5gVXVka+OfK3hvnkC1i93U8WiY2OtNE4XUWyyy/86Kf6e0IHTQw1Q==
 
-"@types/node@^10.0.8":
-  version "10.12.27"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.27.tgz#eb3843f15d0ba0986cc7e4d734d2ee8b50709ef8"
-  integrity sha512-e9wgeY6gaY21on3ve0xAjgBVjGDWq/xUteK0ujsE53bUoxycMkqfnkUgMt6ffZtykZ5X12Mg3T7Pw4TRCObDKg==
-
-"@types/prop-types@*", "@types/prop-types@^15.5.5":
+"@types/prop-types@*":
   version "15.5.9"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.9.tgz#f2d14df87b0739041bc53a7d75e3d77d726a3ec0"
   integrity sha512-Nha5b+jmBI271jdTMwrHiNXM+DvThjHOfyZtMX9kj/c/LUj2xiLHsG/1L3tJ8DjAoQN48cHwUwtqBotjyXaSdQ==
@@ -1663,7 +1654,7 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.1.tgz#48fd98c1561fe718b61733daed46ff115b496e18"
   integrity sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA==
 
-"@types/react-dom@^16.0.5", "@types/react-dom@^16.0.6":
+"@types/react-dom@^16.0.6":
   version "16.8.2"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.8.2.tgz#9bd7d33f908b243ff0692846ef36c81d4941ad12"
   integrity sha512-MX7n1wq3G/De15RGAAqnmidzhr2Y9O/ClxPxyqaNg96pGyeXUYPSvujgzEVpLo9oIP4Wn1UETl+rxTN02KEpBw==
@@ -1677,10 +1668,18 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.0.2", "@types/react@^16.3.14", "@types/react@^16.4.7":
+"@types/react@*", "@types/react@^16.0.2", "@types/react@^16.4.7":
   version "16.8.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.5.tgz#03b9a6597bc20f6eaaed43f377a160f7e41c2b90"
   integrity sha512-8LRySaaSJVLNZb2dbOGvGmzn88cbAfrgDpuWy+6lLgQ0OJFgHHvyuaCX4/7ikqJlpmCPf4uazJAZcfTQRdJqdQ==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@>=16.4.0":
+  version "16.8.23"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.23.tgz#ec6be3ceed6353a20948169b6cb4c97b65b97ad2"
+  integrity sha512-abkEOIeljniUN9qB5onp++g0EY38h7atnDHxwKUFz1r3VH1+yG1OKi2sNPTyObL40goBmfKFpdii2lEzwLX1cA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -2919,7 +2918,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -3207,7 +3206,7 @@ core-js@3.0.1:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.0.1.tgz#1343182634298f7f38622f95e73f54e48ddf4738"
   integrity sha512-sco40rF+2KlE0ROMvydjkrVMMG1vYilP2ALoRXcYR4obqbYIuV3Bg+51GEDW+HF8n7NRA+iaA4qD0nD9lo9mew==
 
-core-js@^2.4.0, core-js@^2.5.1, core-js@^2.5.6:
+core-js@^2.4.0:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==

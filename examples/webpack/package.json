@@ -10,7 +10,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "@shopify/polaris": "^3.10.0",
+    "@shopify/polaris": "^3.20.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
