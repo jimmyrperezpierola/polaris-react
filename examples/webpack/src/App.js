@@ -12,6 +12,7 @@ import {
   ChoiceList,
   SettingToggle,
 } from '@shopify/polaris';
+import {ImportMinor} from '@shopify/polaris-icons';
 
 export default function App() {
   const [first, setFirst] = useState('');
@@ -37,7 +38,7 @@ export default function App() {
 
   const breadcrumbs = [{content: 'Sample apps'}, {content: 'webpack'}];
   const primaryAction = {content: 'New product'};
-  const secondaryActions = [{content: 'Import', icon: 'import'}];
+  const secondaryActions = [{content: 'Import', icon: ImportMinor}];
 
   const choiceListItems = [
     {label: 'I accept the Terms of Service', value: 'false'},
