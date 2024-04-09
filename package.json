@@ -177,7 +177,7 @@
     "styles.scss"
   ],
   "dependencies": {
-    "@babel/runtime": "^7.1.6",
+    "@babel/runtime": "^7.24.1",
     "@shopify/app-bridge": "^1.3.0",
     "@shopify/css-utilities": "^1.0.0",
     "@shopify/javascript-utilities": "^2.2.1",
